@@ -50,7 +50,7 @@ src
 
 ## Исходный код программы
 
-### Main.java
+Main.java
 ```java
 public class Main {
 
