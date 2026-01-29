@@ -1,0 +1,49 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("=== Задача 1. Переменные и константы ===");
+        int count = 10;
+        double price = 99.99;
+        boolean isAvailable = true;
+        final double PI = 3.14159;
+
+        System.out.println("Количество: " + count);
+        System.out.println("Цена: " + price);
+        System.out.println("Доступно: " + isAvailable);
+        System.out.println("Константа PI: " + PI);
+
+        System.out.println("\n=== Задача 2. Примитивные и ссылочные типы ===");
+        int number = 25;
+        String text = "Привет";
+
+        System.out.println("Значение int: " + number);
+        System.out.println("Значение String: " + text);
+
+        System.out.println("\n=== Задача 3. Область видимости переменных ===");
+        ScopeExample scopeExample = new ScopeExample();
+        scopeExample.showValues();
+
+        System.out.println("\n=== Задача 4. Наследование ===");
+        Student student = new Student();
+        student.name = "Иван";
+        student.age = 20;
+        student.group = "ИС-2204";
+
+        student.displayInfo();
+
+        System.out.println("\n=== Задача 5. Полиморфизм ===");
+        Person person = new Student();
+        person.displayInfo();
+    }
+}
+
+class ScopeExample {
+    int classField = 100; // поле класса
+
+    void showValues() {
+        int localVariable = 50; // локальная переменная
+        System.out.println("Поле класса: " + classField);
+        System.out.println("Локальная переменная: " + localVariable);
+    }
+}
