@@ -1,0 +1,9 @@
+class ScopeExample {
+    int classField = 100; // поле класса
+
+    void showValues() {
+        int localVariable = 50; // локальная переменная
+        System.out.println("Поле класса: " + classField);
+        System.out.println("Локальная переменная: " + localVariable);
+    }
+}
