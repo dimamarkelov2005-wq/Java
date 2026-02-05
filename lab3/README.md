@@ -9,6 +9,11 @@
 освоить применение арифметических операций, оператора присваивания,  
 а также ввод и вывод данных с помощью класса `Scanner`.
 
+  📷 Скриншот выполнения программы:
+<img width="1903" height="1028" alt="image" src="https://github.com/user-attachments/assets/c24169f5-d79e-42fb-b7ad-74d1cb7ecdb2" />
+
+<img width="1919" height="1069" alt="image" src="https://github.com/user-attachments/assets/62641e4c-7f5f-4f2e-a741-a76550116273" />
+
 ---
 
 ## 📝 Задачи работы
@@ -21,9 +26,6 @@
 - вычислений по математическим формулам;
 - реализации линейных алгоритмов без использования условий и циклов.
 
-  📷 Скриншот выполнения программы:
-<img width="1919" height="1069" alt="image" src="https://github.com/user-attachments/assets/d867a2c3-1a73-420b-9273-f6b5c714141e" />
-<img width="1903" height="1028" alt="image" src="https://github.com/user-attachments/assets/7aee2b75-cc51-4d35-ae8c-d80843c458ac" />
 
 ---
 
