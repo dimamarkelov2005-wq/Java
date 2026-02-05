@@ -21,6 +21,10 @@
 - вычислений по математическим формулам;
 - реализации линейных алгоритмов без использования условий и циклов.
 
+  📷 Скриншот выполнения программы:
+<img width="1919" height="1069" alt="image" src="https://github.com/user-attachments/assets/d867a2c3-1a73-420b-9273-f6b5c714141e" />
+<img width="1903" height="1028" alt="image" src="https://github.com/user-attachments/assets/7aee2b75-cc51-4d35-ae8c-d80843c458ac" />
+
 ---
 
 ## 📁 Структура проекта
@@ -112,10 +116,6 @@ S = v · t
 
 🖥️ Пример работы программы
 Ниже представлен пример запуска программы в консоли IntelliJ IDEA.
-
-📷 Скриншот выполнения программы:
-<img width="1919" height="1069" alt="image" src="https://github.com/user-attachments/assets/d867a2c3-1a73-420b-9273-f6b5c714141e" />
-<img width="1903" height="1028" alt="image" src="https://github.com/user-attachments/assets/7aee2b75-cc51-4d35-ae8c-d80843c458ac" />
 
 🛠 Используемые средства
 Язык программирования: Java
