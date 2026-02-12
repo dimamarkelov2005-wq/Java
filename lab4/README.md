@@ -216,12 +216,12 @@ GitHub
 
 Клонировать репозиторий:
 
-git clone https://github.com/your-username/java-basic-tasks.git
-
+git clone [https://github.com/your-username/java-basic-tasks.git](https://github.com/dimamarkelov2005-wq/Java.git)
 
 Открыть проект в IntelliJ IDEA
 
 Запустить нужный файл через Run
+
 
 🎓 Итог
 
