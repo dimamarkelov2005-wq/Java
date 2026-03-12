@@ -1,0 +1,39 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class Main extends JFrame {
+
+    public Main(){
+        setSize(800,600);
+        setTitle("y = kx");
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+
+    public void paint(Graphics g){
+
+        super.paint(g);
+
+        int cx = 400;
+        int cy = 300;
+
+        g.setColor(Color.BLACK);
+        g.drawLine(cx,0,cx,600);
+        g.drawLine(0,cy,800,cy);
+
+        g.setColor(Color.RED);
+
+        for(double k=0.1;k<=1;k+=0.1){
+            for(int x=-200;x<200;x++){
+
+                int y = (int)(k*x);
+
+                g.drawLine(cx+x,cy-y,cx+x+1,cy-y);
+            }
+        }
+    }
+
+    public static void main(String[] args){
+        new Main();
+    }
+}
