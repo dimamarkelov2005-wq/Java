@@ -1,0 +1,27 @@
+public class Task5 {
+    static class Shape {
+        double area() { return 0; }
+    }
+
+    static class Circle extends Shape {
+        double r;
+        Circle(double r) { this.r = r; }
+        double area() { return Math.PI * r * r; }
+    }
+
+    static class Rectangle extends Shape {
+        double a,b;
+        Rectangle(double a,double b){this.a=a;this.b=b;}
+        double area(){return a*b;}
+    }
+
+    static class Triangle extends Shape {
+        double a,b;
+        Triangle(double a,double b){this.a=a;this.b=b;}
+        double area(){return 0.5*a*b;}
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Circle(5).area());
+    }
+}
