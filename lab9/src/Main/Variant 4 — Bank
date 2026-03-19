@@ -1,0 +1,14 @@
+public class Task7 {
+    static class BankAccount {
+        double balance;
+        BankAccount(double b){balance=b;}
+        void deposit(double x){balance+=x;}
+        void withdraw(double x){balance-=x;}
+    }
+
+    public static void main(String[] args) {
+        BankAccount acc=new BankAccount(100);
+        acc.deposit(50);
+        System.out.println(acc.balance);
+    }
+}
