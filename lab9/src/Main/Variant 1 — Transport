@@ -1,0 +1,28 @@
+public class Task4 {
+    static class Transport {
+        String name;
+        Transport(String name) { this.name = name; }
+        void move() { System.out.println(name + " moves"); }
+    }
+
+    static class Car extends Transport {
+        Car(String n) { super(n); }
+        void move() { System.out.println(name + " drives"); }
+    }
+
+    static class Train extends Transport {
+        Train(String n) { super(n); }
+        void move() { System.out.println(name + " on rails"); }
+    }
+
+    static class Airplane extends Transport {
+        Airplane(String n) { super(n); }
+        void move() { System.out.println(name + " flies"); }
+    }
+
+    public static void main(String[] args) {
+        new Car("Car").move();
+        new Train("Train").move();
+        new Airplane("Plane").move();
+    }
+}
