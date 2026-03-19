@@ -1,0 +1,16 @@
+public class Task6 {
+    static class Employee {
+        String name;
+        Employee(String n){name=n;}
+        void work(){System.out.println(name+" works");}
+    }
+
+    static class Developer extends Employee {
+        Developer(String n){super(n);}
+        void work(){System.out.println(name+" codes");}
+    }
+
+    public static void main(String[] args) {
+        new Developer("Alex").work();
+    }
+}
