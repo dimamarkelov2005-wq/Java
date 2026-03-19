@@ -1,0 +1,29 @@
+public class Task3 {
+    static class Person {
+        String firstName, lastName;
+        Person(String f, String l) { firstName = f; lastName = l; }
+        void displayInfo() { System.out.println(firstName + " " + lastName); }
+    }
+
+    static class Student extends Person {
+        Student(String f, String l) { super(f, l); }
+        void study() { System.out.println(firstName + " studies"); }
+    }
+
+    static class Professor extends Person {
+        String subject;
+        Professor(String f, String l, String s) {
+            super(f, l);
+            subject = s;
+        }
+        void teach() { System.out.println(firstName + " teaches " + subject); }
+    }
+
+    public static void main(String[] args) {
+        Student st = new Student("Ali", "Khan");
+        Professor pr = new Professor("John", "Doe", "Math");
+
+        st.displayInfo(); st.study();
+        pr.displayInfo(); pr.teach();
+    }
+}
