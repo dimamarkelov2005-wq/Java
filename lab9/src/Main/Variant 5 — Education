@@ -1,0 +1,15 @@
+public class Task8 {
+    static class Student {
+        void study(){System.out.println("Study");}
+    }
+    static class Teacher {
+        void teach(){System.out.println("Teach");}
+    }
+    static class Admin {
+        void manage(){System.out.println("Manage");}
+    }
+
+    public static void main(String[] args) {
+        new Student().study();
+    }
+}
