@@ -1,0 +1,27 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class Main {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Лабораторная работа");
+        frame.setSize(600, 400);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        JTabbedPane tabs = new JTabbedPane();
+
+        // Добавляем все задачи по порядку
+        tabs.add("Фигуры", new Task1_Figures());
+        tabs.add("Кнопка", new Task2_Button());
+        tabs.add("Имя", new Task3_TextField());
+        tabs.add("Цвет", new Task4_ColorChange());
+        tabs.add("Координаты", new Task5_Coordinates());
+        tabs.add("Мышь", new Task6_Mouse());
+        tabs.add("Клавиатура", new Task7_Key());
+        tabs.add("Калькулятор", new Task8_Calculator());
+        tabs.add("Анимация", new Task9_Animation());
+        tabs.add("Checkbox", new Task10_Checkbox());
+
+        frame.add(tabs);
+        frame.setVisible(true);
+    }
+}
