@@ -1,0 +1,187 @@
+📘 Отчёт по практической работе: Работа со строками в Java
+🎯 Цель работы
+
+Изучить основные методы работы со строками в языке Java:
+
+обработка текста
+поиск и замена
+разбиение строк
+анализ символов
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/59b1a994-b4b7-463b-9ebf-e2d48b6b0b06" />
+
+📂 Список выполненных заданий
+✅ Task1_StringLength
+
+Описание: Определение длины строки
+Метод: length()
+Пример:
+
+Ввод: Hello
+Вывод: 5
+✅ Task2_ChangeCase
+
+Описание: Изменение регистра строки
+Методы: toUpperCase(), toLowerCase()
+Пример:
+
+Ввод: Hello
+Вывод:
+HELLO
+hello
+✅ Task3_WordCount
+
+Описание: Подсчёт количества слов
+Метод: split()
+Пример:
+
+Ввод: Hello world Java
+Вывод: 3
+✅ Task4_ReverseWords
+
+Описание: Разворот каждого слова
+Метод: StringBuilder.reverse()
+Пример:
+
+Ввод: Hello world
+Вывод: olleH dlrow
+✅ Task5_FindWord
+
+Описание: Поиск слова в строке
+Метод: contains()
+Пример:
+
+Ввод:
+Hello world
+world
+Вывод: true
+✅ Task6_ReplaceWord
+
+Описание: Замена слова
+Метод: replace()
+Пример:
+
+Ввод:
+Hello world
+world
+Java
+Вывод: Hello Java
+✅ Task7_PalindromeCheck
+
+Описание: Проверка строки на палиндром
+Методы: equals(), reverse()
+Пример:
+
+Ввод: madam
+Вывод: true
+✅ Task8_StringComparison
+
+Описание: Сравнение строк
+Метод: equals()
+Пример:
+
+Ввод:
+abc
+abc
+Вывод: true
+✅ Task9_SplitString
+
+Описание: Разделение строки
+Метод: split()
+Пример:
+
+Ввод:
+a,b,c
+,
+Вывод:
+a
+b
+c
+✅ Task10_VowelsConsonants
+
+Описание: Подсчёт гласных и согласных
+Пример:
+
+Ввод: Hello
+Вывод: Гласные: 2, Согласные: 3
+✅ Task11_RemoveSpaces
+
+Описание: Удаление пробелов
+Метод: replace()
+Пример:
+
+Ввод: Hello world
+Вывод: Helloworld
+✅ Task12_LongestWord
+
+Описание: Поиск самого длинного слова
+Пример:
+
+Ввод: Java is powerful
+Вывод: powerful
+✅ Task13_CharCountNoSpaces
+
+Описание: Подсчёт символов без пробелов
+Пример:
+
+Ввод: a b c
+Вывод: 3
+✅ Task14_StartsWith
+
+Описание: Проверка начала строки
+Метод: startsWith()
+Пример:
+
+Ввод:
+Hello world
+Hello
+Вывод: true
+✅ Task15_EndsWith
+
+Описание: Проверка конца строки
+Метод: endsWith()
+Пример:
+
+Ввод:
+Hello.txt
+.txt
+Вывод: true
+✅ Task16_ReverseString
+
+Описание: Полный разворот строки
+Пример:
+
+Ввод: Hello
+Вывод: olleH
+✅ Task17_RemoveDigits
+
+Описание: Удаление цифр
+Метод: replaceAll()
+Пример:
+
+Ввод: a1b2c3
+Вывод: abc
+✅ Task18_ReplaceVowels
+
+Описание: Замена гласных на *
+Пример:
+
+Ввод: Hello
+Вывод: H*ll*
+✅ Task19_CharFrequency
+
+Описание: Частота символов
+Пример:
+
+Ввод: aba
+Вывод:
+a: 2
+b: 1
+✅ Task20_OnlyDigits
+
+Описание: Проверка строки на цифры
+Метод: matches()
+Пример:
+
+Ввод: 12345
+Вывод: true
